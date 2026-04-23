@@ -1,0 +1,6 @@
+chromadb==0.5.23
+sentence-transformers==3.0.1
+rank-bm25==0.2.2
+streamlit==1.37.0
+ollama==0.3.3
+pandas==2.2.2

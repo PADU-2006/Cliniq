@@ -1,0 +1,4 @@
+DOCUMENT TYPE: treatment_protocol
+TITLE:  Weight Loss Evaluation 
+---
+REASON FOR VISIT:,  Weight loss evaluation.,HISTORY OF PRESENT ILLNESS:,
