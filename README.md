@@ -164,7 +164,7 @@ Screenshot the output for submission proof.
 
 | Name | Role |
 |------|------|
-| [Nikitha] | System Architect |
+| [Nikitha] | System Architect-Team Lead |
 | [Vinothana] | ML Engineer |
 | [Anfi Jo Rajan] | Backend Developer |
 | [Padmini] | Frontend Developer |
