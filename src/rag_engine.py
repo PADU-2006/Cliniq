@@ -119,21 +119,21 @@ class ClinIQEngine:
             context += f"\n[SOURCE {i+1}: {chunk['source']} | Type: {chunk['doc_type']}]\n"
             context += chunk['text'] + "\n"
         
-        prompt = f"""You are a clinical document assistant for a hospital in Tamil Nadu. 
-Answer the question ONLY using the provided context.
+        prompt = f"""You are a clinical document assistant. You ONLY answer from the context below.
 
-STRICT RULES:
-1. If the answer is in the context, give a clear answer and cite the source like [SOURCE 1]
-2. If the answer is NOT clearly in the context, respond EXACTLY: "NOT FOUND: This information is not available in the retrieved documents."
-3. Never invent drug dosages, diagnoses, or patient information
-4. Be concise and clinical
+RULES:
+1. Read the CONTEXT carefully.
+2. If the CONTEXT contains the answer, answer clearly and cite [SOURCE 1], [SOURCE 2] etc.
+3. If the CONTEXT does NOT contain the answer, reply with EXACTLY this and nothing else:
+   NOT FOUND: This information is not available in the retrieved documents.
+4. NEVER guess. NEVER use outside knowledge. NEVER invent any information.
 
 CONTEXT:
 {context}
 
 QUESTION: {query}
 
-ANSWER:"""
+ANSWER (cite source or say NOT FOUND):"""
         
         start_time = time.time()
         
