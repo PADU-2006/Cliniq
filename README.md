@@ -139,10 +139,10 @@ Screenshot the output for submission proof.
 
 | Metric                  | Score         | Target   |
 |-------------------------|---------------|----------|
-| Answer Accuracy         | TBD%          | ≥ 70%    |
-| Abstention Correctness  | TBD%          | 100%     |
-| Latency p50             | TBDs          | < 60s    |
-| Latency p95             | TBDs          | < 60s    |
+| Answer Accuracy         | 84%          | ≥ 70%    |
+| Abstention Correctness  | 80%          | 100%     |
+| Latency p50             | 218.2s          | < 60s    |
+| Latency p95             | 320.6s          | < 60s    |
 | Network Isolation       | ✅ Verified   | Zero API |
 
 
