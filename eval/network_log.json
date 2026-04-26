@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-04-26 10:02:04.667803",
+  "verdict": "OFFLINE",
+  "all_blocked": true,
+  "endpoints_checked": [
+    "OpenAI API",
+    "Anthropic API",
+    "Cohere API",
+    "Together AI",
+    "HuggingFace"
+  ]
+}
